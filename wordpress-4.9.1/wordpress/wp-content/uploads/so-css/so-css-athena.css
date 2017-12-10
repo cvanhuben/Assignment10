@@ -17,7 +17,7 @@
 }
 
 ul.athena-nav > li.menu-item a:hover {
-  font-size: 30px;
+  font-size: 18px;
   text-transform: uppercase;
   color: #78c6cc;
 }
@@ -32,4 +32,12 @@ ul.athena-nav > li.menu-item a:hover {
   white-space: normal;
   word-spacing: 1px;
   letter-spacing: 1px;
+}
+
+.main-navigation ul li:hover > ul {
+  font-size: 0px;
+}
+
+#menu-item-165.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-165 {
+  font-size: 10px;
 }
