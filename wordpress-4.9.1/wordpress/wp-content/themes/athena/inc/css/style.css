@@ -162,8 +162,8 @@ body.admin-bar{
 }
 
 #athena-header.frontpage .header-inner{
-/*     background: rgba(27,27,27,0.3); */
-	background: lightgray;
+    background: rgba(27,27,27,0.3);
+/* 	background: lightgray; */
     height: 85px;
 }
 
@@ -423,8 +423,9 @@ ul.athena-nav > li.menu-item.menu-item-has-children > a:after{
 }
 
 #athena-jumbotron h2.header-text{
-    font-size: 46px;
+    font-size: 70px;
     color: #fff;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #athena-jumbotron .slider-bottom{
