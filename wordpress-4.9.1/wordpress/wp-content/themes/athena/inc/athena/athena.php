@@ -473,7 +473,7 @@ function athena_render_footer(){ ?>
                 <?php echo esc_attr( get_theme_mod( 'copyright_text', __( 'Copyright Company Name 2015', 'athena' ) ) ); ?>
             </div>
             
-            <div id="authica-social">
+<!--             <div id="authica-social">
                 
                 <?php if( get_theme_mod( 'facebook_url', 'http://facebook.com' ) != '' ) : ?>
                 <a href="<?php echo esc_url( get_theme_mod( 'facebook_url', 'http://facebook.com' ) ); ?>" target="_BLANK" class="athena-facebook">
@@ -513,7 +513,7 @@ function athena_render_footer(){ ?>
                 </a>
                 <?php endif; ?>
                 
-            </div>
+            </div> -->
 
             <?php $menu = wp_nav_menu( array ( 
                 'theme_location'    => 'footer', 
